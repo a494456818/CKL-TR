@@ -225,7 +225,6 @@ def train():
                         Bird_Euclidean_loss += (G_sample_cls.mean(dim=0) - center).pow(2).sum().sqrt()
                 Bird_Euclidean_loss *= 1.0/dataset.train_cls_num
 
-            # 科的 Centroid loss
             Family_Euclidean_loss = Variable(torch.Tensor([0.0])).cuda()
             if opt.CENT_LAMBDA != 0 and opt.FAMILY_CENT_LAMBDA!= 0:
                 for i in range(dataset.familyLabelStart, dataset.familyLabelEnd):
