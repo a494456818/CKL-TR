@@ -28,7 +28,7 @@ CKL-TR
 
 CUBird SCS mode && SCE mode
 
-```python
+```
 # run CUBird with SCS mode
 python train_CUB.py --splitmode easy --bird_lambda 0.6 --genus_lambda 0.2 --family_lambda 0.2
 
@@ -38,7 +38,7 @@ python train_CUB.py --splitmode hard --bird_lambda 0.2 --genus_lambda 0.3 --fami
 
 NABird SCS mode && SCE mode
 
-```python
+```
 # run NABird with SCS mode
 python train_NAB.py --splitmode easy --bird_lambda 0.6 --genus_lambda 0.3 --family_lambda 0.1
 
