@@ -48,3 +48,5 @@ python train_NAB.py --splitmode hard --bird_lambda 0.4 --genus_lambda 0.3 --fami
 
 ## Results evaluated on GBU setting
 
+click the [link](https://github.com/a494456818/CKL-TR/tree/master/GBU-setting) for the details.
+
