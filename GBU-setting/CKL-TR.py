@@ -197,7 +197,7 @@ final_result = {
     "H": 0
 }
 
-for start_step in range(0, 10000):
+for start_step in range(0, opt.nepoch):
 
     for p in discriminator.parameters():  # reset requires_grad
         p.requires_grad = True  # they are set to False below in netG update
