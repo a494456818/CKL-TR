@@ -12,9 +12,9 @@ def weights_init(m):
         m.bias.data.fill_(0)
 
 # Generator
-class MLP_G(nn.Module):
+class Generator(nn.Module):
     def __init__(self, opt):
-        super(MLP_G, self).__init__()
+        super(Generator, self).__init__()
         self.fc1 = nn.Linear(opt.attSize + opt.nz, opt.ngh)
         self.fc2 = nn.Linear(opt.ngh, opt.resSize)
         self.lrelu = nn.LeakyReLU(0.2, True)
@@ -31,7 +31,6 @@ class MLP_G(nn.Module):
 class Discriminator(nn.Module):
     def __init__(self, opt):
         super(Discriminator, self).__init__()
-        self.latensize = opt.latenSize
         self.discriminator = nn.Linear(opt.latenSize * 2, 1)
         self.classifier = nn.Linear(opt.latenSize * 2, opt.nclass_seen)
         self.logic = nn.LogSoftmax(dim=1)

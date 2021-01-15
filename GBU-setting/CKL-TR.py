@@ -77,7 +77,7 @@ data = util.DATA_LOADER(opt)
 print("# of training samples: ", data.ntrain)
 
 # initialize generator and discriminator
-netG = model.MLP_G(opt)
+netG = model.Generator(opt)
 discriminator = model.Discriminator(opt)
 print(netG)
 print(discriminator)
@@ -297,7 +297,7 @@ for start_step in range(0, 10000):
                 param_group['lr'] = param_group['lr'] * opt.lr_dec_rate
 
     # evaluate the model
-    if start_step % 40 == 0:
+    if start_step % 50 == 0:
 
         print(
             '[%d/%d] Loss_D: %.4f Loss_G: %.4f, Wasserstein_dist: %.4f, c_errG_fake:%.4f,beta:%.4f,species_center_loss:%.4f,genus_center_loss:%.4f,family_center_loss:%.4f,'
