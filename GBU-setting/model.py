@@ -24,7 +24,7 @@ class MLP_G(nn.Module):
     def forward(self, noise, att):
         h = torch.cat((noise, att), 1)
         h = self.lrelu(self.fc1(h))
-        h = self.relu(self.fc2(h))  # 视觉向量
+        h = self.relu(self.fc2(h))
         return h
 
 # Discriminator
