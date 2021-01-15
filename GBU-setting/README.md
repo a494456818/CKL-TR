@@ -8,7 +8,7 @@ pytorch-gpu 1.4.0+cuda101
 
 ## Data
 
-Data: You can download the dataset CUBird and NABird from following link：
+Data: You can download the GUB-setting datasets from following link：
 
 <https://drive.google.com/file/d/1SF28qqrAZ3dRuzNRIP9JzrKJsLmDaTJh/view?usp=sharing>
 
