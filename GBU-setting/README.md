@@ -18,6 +18,8 @@ CKL-TR
 
 - data
   - AWA2
+    - att_splits.mat
+    - res101.mat
   
   AWA2.csv
   
