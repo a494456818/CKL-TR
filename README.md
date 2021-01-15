@@ -45,3 +45,6 @@ python train_NAB.py --splitmode easy --bird_lambda 0.6 --genus_lambda 0.3 --fami
 # run NABird with SCE mode
 python train_NAB.py --splitmode hard --bird_lambda 0.4 --genus_lambda 0.3 --family_lambda 0.3
 ```
+
+## Results evaluated on GBU setting
+
