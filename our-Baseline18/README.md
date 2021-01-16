@@ -14,7 +14,7 @@ Data: You can download the GUB-setting datasets from following link：
 
 Put the uncompressed data to the folder "data", like this:
 
-CKL-TR
+CKL-TR/our-Baseline18
 
 - data
   - AWA2
@@ -30,5 +30,6 @@ AWA2：
 
 ```python
 # run AWA2
-python CKL-TR.py --dataset AWA2 --preprocessing --batch_size 512 --attSize 85 --lr_dec
+python train_GBU.py --dataset AWA2 --syn_num 600 --preprocessing --batch_size 512 --attSize 85 --center_weight 10
 ```
+
