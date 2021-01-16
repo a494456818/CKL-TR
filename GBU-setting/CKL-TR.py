@@ -32,7 +32,7 @@ parser.add_argument('--attSize', type=int, default=85, help='size of semantic fe
 parser.add_argument('--nz', type=int, default=312, help='size of the latent z vector')
 parser.add_argument('--ngh', type=int, default=4096, help='size of the hidden units in generator')
 parser.add_argument('--latenSize', type=int, default=1024, help='size of semantic features')
-parser.add_argument('--nepoch', type=int, default=500, help='number of epochs to train for')
+parser.add_argument('--nepoch', type=int, default=400, help='number of epochs to train for')
 parser.add_argument('--lambda1', type=float, default=10, help='gradient penalty regularizer, following WGAN-GP')
 parser.add_argument('--cls_weight', type=float, default=0.2, help='weight of the classification loss')
 parser.add_argument('--lr', type=float, default=0.0001, help='learning rate to train GANs ')
@@ -43,8 +43,7 @@ parser.add_argument('--gpu', default='0', type=str, help='index of GPU to use')
 parser.add_argument('--manualSeed', type=int, default=3483, help='manual seed')
 parser.add_argument('--nclass_all', type=int, default=200, help='number of all classes')
 parser.add_argument('--nclass_seen', type=int, default=150, help='number of seen classes')
-parser.add_argument('--lr_dec', action='store_true', default=False, help='enable lr decay or not')
-parser.add_argument('--lr_dec_ep', type=int, default=100, help='lr decay for every 100 epoch')
+parser.add_argument('--lr_dec_ep', type=int, default=100, help='lr decay for every n epoch')
 parser.add_argument('--lr_dec_rate', type=float, default=0.95, help='lr decay rate')
 parser.add_argument('--final_classifier', default='softmax',
                     help='the classifier for final classification. softmax or knn')
@@ -289,20 +288,19 @@ for start_step in range(0, opt.nepoch):
     errG.backward()
     optimizerG.step()
 
-    if opt.lr_dec:
-        if (start_step + 1) % opt.lr_dec_ep == 0:
-            for param_group in optimizerD.param_groups:
-                param_group['lr'] = param_group['lr'] * opt.lr_dec_rate
-            for param_group in optimizerG.param_groups:
-                param_group['lr'] = param_group['lr'] * opt.lr_dec_rate
+    if (start_step + 1) % opt.lr_dec_ep == 0:
+        for param_group in optimizerD.param_groups:
+            param_group['lr'] = param_group['lr'] * opt.lr_dec_rate
+        for param_group in optimizerG.param_groups:
+            param_group['lr'] = param_group['lr'] * opt.lr_dec_rate
+
+    print(
+        '[%d/%d] Loss_D: %.4f Loss_G: %.4f, Wasserstein_dist: %.4f, c_errG_fake:%.4f,beta:%.4f,species_center_loss:%.4f,genus_center_loss:%.4f,family_center_loss:%.4f,'
+        % (start_step, opt.nepoch, D_cost.item(), G_cost.item(), Wasserstein_D.item(), c_errG_fake.item(), beta,
+           species_center_loss, genus_center_loss, family_center_loss))
 
     # evaluate the model
-    if start_step % 50 == 0:
-
-        print(
-            '[%d/%d] Loss_D: %.4f Loss_G: %.4f, Wasserstein_dist: %.4f, c_errG_fake:%.4f,beta:%.4f,species_center_loss:%.4f,genus_center_loss:%.4f,family_center_loss:%.4f,'
-            % (start_step, opt.nepoch, D_cost.item(), G_cost.item(), Wasserstein_D.item(), c_errG_fake.item(), beta,
-                species_center_loss, genus_center_loss, family_center_loss))
+    if start_step != 0 and start_step % 50 == 0:
 
         netG.eval()
         discriminator.eval()
