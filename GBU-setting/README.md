@@ -30,5 +30,5 @@ AWA2：
 
 ```python
 # run AWA2
-python CKL-TR.py --dataset AWA2 --preprocessing --batch_size 512 --attSize 85 --lr_dec
+python CKL-TR.py --dataset AWA2 --preprocessing --batch_size 512 --attSize 85
 ```
