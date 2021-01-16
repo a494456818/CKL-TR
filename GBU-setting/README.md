@@ -32,3 +32,11 @@ AWA2：
 # run AWA2
 python CKL-TR.py --dataset AWA2 --preprocessing --batch_size 512 --attSize 85
 ```
+
+AWA1：
+
+```python
+# run AWA1
+python CKL-TR.py --dataset AWA1 --preprocessing --nepoch 2000 --batch_size 512 --attSize 85
+```
+
