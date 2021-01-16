@@ -14,7 +14,7 @@ Data: You can download the GUB-setting datasets from following link：
 
 Put the uncompressed data to the folder "data", like this:
 
-CKL-TR
+CKL-TR/GBU-setting
 
 - data
   - AWA2
