@@ -1,0 +1,201 @@
+id,birdName,Kingdom,Phylum,Class,Order,Family,Genus,Species
+1,Black_footed_Albatross,Animalia,Chordata,Aves,Procellariiformes,Diomedeidae,Phoebastria,P.?nigripes
+10,Red_winged_Blackbird,Animalia,Chordata,Aves,Passeriformes,Icteridae,Agelaius,A.?phoeniceus
+100,Brown_Pelican,Animalia,Chordata,Aves,Pelecaniformes,Pelecanidae,Pelecanus,P.?occidentalis
+102,Western_Wood_Pewee,Animalia,Chordata,Aves,Passeriformes,Tyrannidae,Contopus,C.?sordidulus
+106,Horned_Puffin,Animalia,Chordata,Aves,Charadriiformes,Alcidae,Fratercula,F.?corniculata
+108,White_necked_Raven,Animalia,Chordata,Aves,Passeriformes,Corvidae,Corvus,C.?albicollis
+11,Rusty_Blackbird,Animalia,Chordata,Aves,Passeriformes,Icteridae,Euphagus,E.?carolinus
+111,Loggerhead_Shrike,Animalia,Chordata,Aves,Passeriformes,Laniidae,Lanius,L.?ludovicianus
+112,Great_Grey_Shrike,Animalia,Chordata,Aves,Passeriformes,Laniidae,Lanius,L.?excubitor
+114,Black_throated_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Amphispiza,A.?bilineata
+116,Chipping_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Spizella,S.?passerina
+117,Clay_colored_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Spizella,S.?pallida
+119,Field_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Spizella,S.?pusilla
+12,Yellow_headed_Blackbird,Animalia,Chordata,Aves,Passeriformes,Icteridae,Xanthocephalus,X.?xanthocephalus
+120,Fox_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Passerella,P.?iliaca
+121,Grasshopper_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Ammodramus,A.?savannarum
+127,Savannah_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Passerculus,P.?sandwichensis
+128,Seaside_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Ammodramus,A.?maritimus
+129,Song_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Melospiza,M.?melodia
+13,Bobolink,Animalia,Chordata,Aves,Passeriformes,Icteridae,Dolichonyx,D.?oryzivorus
+131,Vesper_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Pooecetes,P.?gramineus
+132,White_crowned_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Zonotrichia,Z.?leucophrys
+133,White_throated_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Zonotrichia,Z.?albicollis
+135,Bank_Swallow,Animalia,Chordata,Aves,Passeriformes,Hirundinidae,Riparia,R.?riparia
+138,Tree_Swallow,Animalia,Chordata,Aves,Passeriformes,Hirundinidae,Tachycineta,T.?bicolor
+139,Scarlet_Tanager,Animalia,Chordata,Aves,Passeriformes,Cardinalidae,Piranga,P.?olivacea
+14,Indigo_Bunting,Animalia,Chordata,Aves,Passeriformes,Cardinalidae,Passerina,P.?cyanea
+140,Summer_Tanager,Animalia,Chordata,Aves,Passeriformes,,Piranga,P.?rubra
+142,Black_Tern,Animalia,Chordata,Aves,Charadriiformes,Sternidae,Chlidonias,C.?niger
+143,Caspian_Tern,Animalia,Chordata,Aves,Charadriiformes,Sternidae,Hydroprogne,H.?caspia
+145,Elegant_Tern,Animalia,Chordata,Aves,Charadriiformes,Sternidae,Thalasseus,T.?elegans
+147,Least_Tern,Animalia,Chordata,Aves,Charadriiformes,Sternidae,Sternula,S.?antillarum
+148,Green_tailed_Towhee,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Pipilo,P.?chlorurus
+149,Brown_Thrasher,Animalia,Chordata,Aves,Passeriformes,Mimidae,Toxostoma,T.?rufum
+15,Lazuli_Bunting,Animalia,Chordata,Aves,Passeriformes,Cardinalidae,Passerina,P.?amoena
+150,Sage_Thrasher,Animalia,Chordata,Aves,Passeriformes,Mimidae,Oreoscoptes,O.?montanus
+151,Black_capped_Vireo,Animalia,Chordata,Aves,Passeriformes,Vireonidae,Vireo,V.?atricapilla
+152,Blue_headed_Vireo,Animalia,Chordata,Aves,Passeriformes,Vireonidae,Vireo,V.?solitarius
+153,Philadelphia_Vireo,Animalia,Chordata,Aves,Passeriformes,Vireonidae,Vireo,V.?philadelphicus
+154,Red_eyed_Vireo,Animalia,Chordata,Aves,Passeriformes,Vireonidae,Vireo,V.?olivaceus
+155,Warbling_Vireo,Animalia,Chordata,Aves,Passeriformes,Vireonidae,Vireo,V.?gilvus
+156,White_eyed_Vireo,Animalia,Chordata,Aves,Passeriformes,Vireonidae,Vireo,V.?griseus
+157,Yellow_throated_Vireo,Animalia,Chordata,Aves,Passeriformes,Vireonidae,Vireo,V.?flavifrons
+158,Bay_breasted_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Setophaga,S.?castanea
+16,Painted_Bunting,Animalia,Chordata,Aves,Passeriformes,Cardinalidae,Passerina,P.?ciris
+160,Black_throated_Blue_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Setophaga,S.?caerulescens
+161,Blue_winged_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Vermivora,V.?cyanoptera
+162,Canada_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Cardellina,C.?canadensis
+163,Cape_May_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Setophaga,S.?tigrina
+164,Cerulean_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Setophaga,S.?cerulea
+165,Chestnut_sided_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Setophaga,S.?pensylvanica
+166,Golden_winged_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Vermivora,V.?chrysoptera
+167,Hooded_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Setophaga,S.?citrina
+168,Kentucky_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Geothlypis,G.?formosa
+169,Magnolia_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Setophaga,S.?magnolia
+170,Mourning_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Geothlypis,G.?philadelphia
+171,Myrtle_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Setophaga,Setophaga coronata
+172,Nashville_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Oreothlypis,O.?ruficapilla
+173,Orange_crowned_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Oreothlypis,O.?celata
+174,Palm_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Setophaga,S.?palmarum
+175,Pine_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Setophaga,S.?pinus
+176,Prairie_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Setophaga,S.?discolor
+177,Prothonotary_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Protonotaria,P.?citrea
+179,Tennessee_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Oreothlypis,O.?peregrina
+18,Spotted_Catbird,Animalia,Chordata,Aves,Passeriformes,Ptilonorhynchidae,Ailuroedus,A.?maculosus
+181,Worm_eating_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Helmitheros,H.?vermivorum
+182,Yellow_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Setophaga,S.?petechia
+183,Northern_Waterthrush,Animalia,Chordata,Aves,Passeriformes,Parulidae,Parkesia,P.?noveboracensis
+184,Louisiana_Waterthrush,Animalia,Chordata,Aves,Passeriformes,Parulidae,Parkesia,P.?motacilla
+186,Cedar_Waxwing,Animalia,Chordata,Aves,Passeriformes,Bombycillidae,Bombycilla,B.?cedrorum
+188,Pileated_Woodpecker,Animalia,Chordata,Aves,Piciformes,Picidae,Dryocopus,D.?pileatus
+189,Red_bellied_Woodpecker,Animalia,Chordata,Aves,Piciformes,Picidae,Melanerpes,M.?carolinus
+19,Gray_Catbird,Animalia,Chordata,Aves,Passeriformes,Mimidae,Dumetella,D.?carolinensis
+190,Red_cockaded_Woodpecker,Animalia,Chordata,Aves,Piciformes,Picidae,Leuconotopicus,L.?borealis
+191,Red_headed_Woodpecker,Animalia,Chordata,Aves,Piciformes,Picidae,Melanerpes,M.?erythrocephalus
+192,Downy_Woodpecker,Animalia,Chordata,Aves,Piciformes,Picidae,Dryobates,D.?pubescens
+194,Cactus_Wren,Animalia,Chordata,Aves,Passeriformes,Troglodytidae,Campylorhynchus,C.?brunneicapillus
+195,Carolina_Wren,Animalia,Chordata,Aves,Passeriformes,Troglodytidae,,T.?ludovicianus
+196,House_Wren,Animalia,Chordata,Aves,Passeriformes,Troglodytidae,Troglodytes,T.?aedon
+197,Marsh_Wren,Animalia,Chordata,Aves,Passeriformes,Troglodytidae,Cistothorus,C.?palustris
+199,Winter_Wren,Animalia,Chordata,Aves,Passeriformes,Troglodytidae,,T.?hiemalis
+2,Laysan_Albatross,Animalia,Chordata,Aves,Procellariiformes,Diomedeidae,Phoebastria,P.?immutabilis
+20,Yellow_breasted_Chat,Animalia,Chordata,Aves,Passeriformes,Incertae sedis,Icteria,I.?virens
+21,Eastern_Towhee,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Pipilo,P.?erythrophthalmus
+24,Red_faced_Cormorant,Animalia,Chordata,Aves,Suliformes,Phalacrocoracidae,Phalacrocorax,P.?urile
+25,Pelagic_Cormorant,Animalia,Chordata,Aves,Suliformes,Phalacrocoracidae,,P.?pelagicus
+26,Bronzed_Cowbird,Animalia,Chordata,Aves,Passeriformes,Icteridae,Molothrus,M.?aeneus
+27,Shiny_Cowbird,Animalia,Chordata,Aves,Passeriformes,Icteridae,Molothrus,M.?bonariensis
+28,Brown_Creeper,Animalia,Chordata,Aves,Passeriformes,Certhiidae,Certhia,C.?americana
+29,American_Crow,Animalia,Chordata,Aves,Passeriformes,Corvidae,Corvus,C.?brachyrhynchos
+3,Sooty_Albatross,Animalia,Chordata,Aves,Procellariiformes,Diomedeidae,Phoebetria,P.?fusca
+30,Fish_Crow,Animalia,Chordata,Aves,Passeriformes,Corvidae,Corvus,C.?ossifragus
+31,Black_billed_Cuckoo,Animalia,Chordata,Aves,Cuculiformes,Cuculidae,Coccyzus,C.?erythropthalmus
+32,Mangrove_Cuckoo,Animalia,Chordata,Aves,Cuculiformes,Cuculidae,Coccyzus,C.?minor
+33,Yellow_billed_Cuckoo,Animalia,Chordata,Aves,Cuculiformes,Cuculidae,Coccyzus,C.?americanus
+34,Gray_crowned_Rosy_Finch,Animalia,Chordata,Aves,Passeriformes,Fringillidae,Leucosticte,L.?tephrocotis
+35,Purple_Finch,Animalia,Chordata,Aves,Passeriformes,Fringillidae,Haemorhous,H.?purpureus
+36,Northern_Flicker,Animalia,Chordata,Aves,Piciformes,Picidae,Colaptes,C.?auratus
+37,Acadian_Flycatcher,Animalia,Chordata,Aves,Passeriformes,Tyrannidae,Empidonax,E.?virescens
+38,Great_Crested_Flycatcher,Animalia,Chordata,Aves,Passeriformes,Tyrannidae,Myiarchus,M.?crinitus
+39,Least_Flycatcher,Animalia,Chordata,Aves,Passeriformes,Tyrannidae,Empidonax,E.?minimus
+40,Olive_sided_Flycatcher,Animalia,Chordata,Aves,Passeriformes,Tyrannidae,Contopus,C.?cooperi
+41,Scissor_tailed_Flycatcher,Animalia,Chordata,Aves,Passeriformes,Tyrannidae,Tyrannus,T.?forficatus
+42,Vermilion_Flycatcher,Animalia,Chordata,Aves,Passeriformes,Tyrannidae,Pyrocephalus,P.?rubinus
+43,Yellow_bellied_Flycatcher,Animalia,Chordata,Aves,Passeriformes,Tyrannidae,Empidonax,E.?flaviventris
+45,Northern_Fulmar,Animalia,Chordata,Aves,Procellariiformes,Procellariidae,Fulmarus,F.?glacialis
+46,Gadwall,Animalia,Chordata,Aves,Anseriformes,Anatidae,Anas,A.?strepera
+48,European_Goldfinch,Animalia,Chordata,Aves,Passeriformes,Fringillidae,Carduelis,C.?carduelis
+49,Boat_tailed_Grackle,Animalia,Chordata,Aves,Passeriformes,Icteridae,Quiscalus,Q.?major
+5,Crested_Auklet,Animalia,Chordata,Aves,Charadriiformes,Alcidae,Aethia,A.?cristatella
+50,Eared_Grebe,Animalia,Chordata,Aves,Podicipediformes,Podicipedidae,Podiceps,P.?nigricollis
+51,Horned_Grebe,Animalia,Chordata,Aves,Podicipediformes,Podicipedidae,Podiceps,P.?auritus
+53,Western_Grebe,Animalia,Chordata,Aves,Podicipediformes,Podicipedidae,Aechmophorus,A.?occidentalis
+54,Blue_Grosbeak,Animalia,Chordata,Aves,Passeriformes,Cardinalidae,Passerina,P.?caerulea
+55,Evening_Grosbeak,Animalia,Chordata,Aves,Passeriformes,Fringillidae,Coccothraustes,C.?vespertinaus
+56,Pine_Grosbeak,Animalia,Chordata,Aves,Passeriformes,Fringillidae,Pinicola,P.?enucleator
+57,Rose_breasted_Grosbeak,Animalia,Chordata,Aves,Passeriformes,Cardinalidae,Pheucticus,P.?ludovicianus
+58,Pigeon_Guillemot,Animalia,Chordata,Aves,Charadriiformes,Alcidae,Cepphus,C.?columba
+59,California_Gull,Animalia,Chordata,Aves,Charadriiformes,Laridae,Larus,L.?californicus
+6,Least_Auklet,Animalia,Chordata,Aves,Charadriiformes,Alcidae,Aethia,A.?pusilla
+60,Glaucous_winged_Gull,Animalia,Chordata,Aves,Charadriiformes,Laridae,Larus,L.?glaucescens
+63,Ivory_Gull,Animalia,Chordata,Aves,Charadriiformes,Laridae,Pagophila,P.?eburnea
+64,Ring_billed_Gull,Animalia,Chordata,Aves,Charadriiformes,Laridae,Larus,L.?delawarensis
+65,Slaty_backed_Gull,Animalia,Chordata,Aves,Charadriiformes,Laridae,Larus,L.?schistisagus
+66,Western_Gull,Animalia,Chordata,Aves,Charadriiformes,Laridae,Larus,L.?occidentalis
+68,Ruby_throated_Hummingbird,Animalia,Chordata,Aves,,Trochilidae,Archilochus,A.?colubris
+69,Rufous_Hummingbird,Animalia,Chordata,Aves,Apodiformes,Trochilidae,Selasphorus,S.?rufus
+7,Parakeet_Auklet,Animalia,Chordata,Aves,Charadriiformes,Alcidae,Aethia,A.?psittacula
+71,Long_tailed_Jaeger,Animalia,Chordata,Aves,Charadriiformes,Stercorariidae,Stercorarius,S.?longicaudus
+73,Blue_Jay,Animalia,Chordata,Aves,Passeriformes,Corvidae,Cyanocitta,C.?cristata
+75,Green_Jay,Animalia,Chordata,Aves,Passeriformes,Corvidae,Cyanocorax,C.?yncas
+77,Tropical_Kingbird,Animalia,Chordata,Aves,Passeriformes,Tyrannidae,Tyrannus,T.?melancholicus
+78,Gray_Kingbird,Animalia,Chordata,Aves,Passeriformes,Tyrannidae,Tyrannus,T.?dominicensis
+79,Belted_Kingfisher,Animalia,Chordata,Aves,Coraciiformes,Alcedinidae,Megaceryle,M.?alcyon
+8,Rhinoceros_Auklet,Animalia,Chordata,Aves,Charadriiformes,Alcidae,Cerorhinca,C.?monocerata
+80,Green_Kingfisher,Animalia,Chordata,Aves,Coraciiformes,Alcedinidae,Chloroceryle,C.?americana
+82,Ringed_Kingfisher,Animalia,Chordata,Aves,Coraciiformes,Alcedinidae,Megaceryle,M.?torquata
+84,Red_legged_Kittiwake,Animalia,Chordata,Aves,Charadriiformes,Laridae,Rissa,R.?brevirostris
+85,Horned_Lark,Animalia,Chordata,Aves,Passeriformes,Alaudidae,Eremophila,E.?alpestris
+86,Pacific_Loon,Animalia,Chordata,Aves,Gaviiformes,Gaviidae,Gavia,G.?pacifica
+88,Western_Meadowlark,Animalia,Chordata,Aves,Passeriformes,Icteridae,Sturnella,S.?neglecta
+89,Hooded_Merganser,Animalia,Chordata,Aves,Anseriformes,Anatidae,Lophodytes,L.?cucullatus
+90,Red_breasted_Merganser,Animalia,Chordata,Aves,Anseriformes,Anatidae,Mergus,M.?serrator
+95,Baltimore_Oriole,Animalia,Chordata,Aves,Passeriformes,Icteridae,Icterus,I.?galbula
+96,Hooded_Oriole,Animalia,Chordata,Aves,Passeriformes,Icteridae,Icterus,I.?cucullatus
+97,Orchard_Oriole,Animalia,Chordata,Aves,Passeriformes,Icteridae,Icterus,I.?spurius
+99,Ovenbird,Animalia,Chordata,Aves,Passeriformes,Parulidae,Seiurus,S.?aurocapilla
+101,White_Pelican,Animalia,Chordata,Aves,Pelecaniformes,Pelecanidae,Pelecanus,P. erythrorhynchos
+103,Sayornis£¨Eastern phoebe),Animalia,Chordata,Aves,Passeriformes,Tyrannidae,Sayornis,S. phoebe
+104,American_Pipit,Animalia,Chordata,Aves,,,,
+105,Whip_poor_Will,Animalia,Chordata,Aves,,,,
+107,Common_Raven,Animalia,Chordata,Aves,,,,
+109,American_Redstart,Animalia,Chordata,Aves,,,,
+110,Geococcyx,Animalia,Chordata,Aves,,,,
+113,Baird_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Ammodramus,A. bairdii
+115,Brewer_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Spizella,"S. breweri Cassin, 1856"
+118,House_Sparrow,Animalia,Chordata,Aves,Passeriformes,Passeridae,Passer,P. domesticus
+122,Harris_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Zonotrichia,Z. querula
+123,Henslow_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Ammodramus,A. henslowii
+124,Le_Conte_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Ammodramus,A. leconteii
+125,Lincoln_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Melospiza,M. lincolnii
+126,Nelson_Sharp_tailed_Sparrow,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Ammodramus,A. nelsoni
+130,Tree_Sparrow,Animalia,Chordata,Aves,Passeriformes,Passeridae,Passer,P. montanus
+134,Cape_Glossy_Starling,Animalia,Chordata,Aves,,,,
+136,Barn_Swallow,Animalia,Chordata,Aves,Passeriformes,Hirundinidae,Hirundo,H. rustica
+137,Cliff_Swallow,Animalia,Chordata,Aves,Passeriformes,Hirundinidae,"Petrochelidon Cabanis, 1850",
+141,Artic_Tern,Animalia,Chordata,Aves,,,,
+144,Common_Tern,Animalia,Chordata,Aves,Charadriiformes,Laridae,Sterna,S. hirundo
+146,Forsters_Tern,Animalia,Chordata,Aves,Charadriiformes,Sternidae,Sterna,S. forsteri
+159,Black_and_white_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,"Mniotilta Vieillot, 1816",M. varia
+17,Cardinal,Animalia,Chordata,Aves,Passeriformes,"Cardinalidae Ridgway, 1901",,
+178,Swainson_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,"Limnothlypis Stone, 1914",L. swainsonii
+180,Wilson_Warbler,Animalia,Chordata,Aves,Passeriformes,Parulidae,Cardellina,C. pusilla
+185,Bohemian_Waxwing,Animalia,Chordata,Aves,Passeriformes,Bombycillidae,Bombycilla,B. garrulus
+187,American_Three_toed_Woodpecker,Animalia,Chordata,Aves,Piciformes,Picidae,Picoides,P. dorsalis
+193,Bewick_Wren,Animalia,Chordata,Aves,Passeriformes,Troglodytidae,"Thryomanes P.L. Sclater, 1862",T. bewickii
+198,Rock_Wren,Animalia,Chordata,Aves,Passeriformes,Troglodytidae,"Salpinctes Cabanis, 1847",S. obsoletus
+200,Common_Yellowthroat,Animalia,Chordata,Aves,Passeriformes,Parulidae,Geothlypis,G. trichas
+22,Chuck_will_Widow,Animalia,Chordata,Aves,Caprimulgiformes,Caprimulgidae,Antrostomus,A. carolinensis
+23,Brandt_Cormorant,Animalia,Chordata,Aves,Caprimulgiformes,Caprimulgidae,Antrostomus,A. carolinensis
+4,Groove_billed_Ani,Animalia,Chordata,Aves,Cuculiformes,Cuculidae,Crotophaga,C. sulcirostris
+44,Frigatebird,Animalia,Chordata,Aves, Suliformes,"Fregatidae"
+47,American_Goldfinch,Animalia,Chordata,Aves, Passeriformes,Fringillidae,Spinus,S. tristis
+52,Pied_billed_Grebe,Animalia,Chordata,Aves,Podicipediformes,Podicipedidae,Podilymbus,P. podiceps
+61,Heermann_Gull,Animalia,Chordata,Aves,Charadriiformes,Laridae,Larus,L. heermanni
+62,Herring_Gull,Animalia,Chordata,Aves,,,,
+67,Anna_Hummingbird,Animalia,Chordata,Aves,Anna_Hummingbird,Trochilidae,Calypte,C. anna
+70,Green_Violetear,Animalia,Chordata,Aves,,,,
+72,Pomarine_Jaeger,Animalia,Chordata,Aves,,,,
+74,Florida_Jay,Animalia,Chordata,Aves,,,,
+76,Dark_eyed_Junco,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Junco,J. hyemalis
+81,Pied_Kingfisher,Animalia,Chordata,Aves, Coraciiformes,Alcedinidae,"Ceryle F. Boie, 1828",C. rudis
+83,White_breasted_Kingfisher,Animalia,Chordata,Aves,,,,
+87,Mallard,Animalia,Chordata,Aves,Anseriformes,Anatidae,Anas,A. platyrhynchos
+9,Brewer_Blackbird,Animalia,Chordata,Aves,Passeriformes,Icteridae,Euphagus,E. cyanocephalus
+91,Mockingbird,Animalia,Chordata,Aves,Passeriformes,Mimidae,Mimus,
+92,Nighthawk,Animalia,Chordata,Aves,Caprimulgiformes,Caprimulgidae,,
+93,Clark_Nutcracker,Animalia,Chordata,Aves,Passeriformes,Corvidae,Nucifraga,N. columbiana
+94,White_breasted_Nuthatch,Animalia,Chordata,Aves,Passeriformes,Sittidae,Sitta,S. carolinensis
+98,Scott_Oriole,Animalia,Chordata,Aves,Passeriformes,Icteridae,Icterus,I. parisorum

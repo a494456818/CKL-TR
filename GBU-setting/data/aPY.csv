@@ -1,0 +1,33 @@
+id,name,Kingdom,Phylum,Class,Order,Family,Genus,Species
+1,aeroplane,,,,,,,
+2,bicycle,,,,,,,
+3,bird,Animalia,Chordata,Aves,Musophagiformes,Musophagidae,Tauraco,T.?erythrolophus
+4,boat,,,,,,,
+5,bottle,,,,,,,
+6,bus,,,,,,,
+7,car,,,,,,,
+8,cat,Animalia,Chordata,Mammalia,Carnivora,Felidae,Felis,F. catus
+9,chair,,,,,,,
+10,cow,Animalia,Chordata,Mammalia,Artiodactyla,Bovidae,Bos,B. taurus
+11,diningtable,,,,,,,
+12,dog,Animalia,Chordata,Mammalia,Carnivora,Canidae,Canis,C. lupus
+13,horse,Animalia,Chordata,Mammalia,Perissodactyla,Equidae,Equus,E. ferus
+14,motorbike,,,,,,,
+15,person,,,,,,,
+16,pottedplant,,,,,,,
+17,sheep,Animalia,Chordata,Mammalia,Artiodactyla,Bovidae,Ovis,O. aries
+18,sofa,,,,,,,
+19,train,,,,,,,
+20,tvmonitor,,,,,,,
+21,donkey,Animalia,Chordata,Mammalia,Perissodactyla,Equidae,Equus,E. africanus
+22,monkey,Animalia,Chordata,Mammalia,Primates,Atelidae,Ateles,
+23,goat,,,,,,,
+24,wolf,Animalia,Chordata,Mammalia,Carnivora,Canidae,Canis,C.?lupus
+25,jetski,,,,,,,
+26,zebra,Animalia,Chordata,Mammalia,Perissodactyla,Equidae,Equus,Equus zebra
+27,centaur,,,,,,,
+28,mug,,,,,,,
+29,statue,,,,,,,
+30,building,,,,,,,
+31,bag,,,,,,,
+32,carriage,,,,,,,

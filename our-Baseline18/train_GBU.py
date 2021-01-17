@@ -164,21 +164,6 @@ def calc_gradient_penalty(netD, real_data, fake_data):
     return gradient_penalty
 
 
-def MI_loss(mus, sigmas, i_c, alpha=1e-8):
-    kl_divergence = (0.5 * torch.sum((mus ** 2) + (sigmas ** 2)
-                                     - torch.log((sigmas ** 2) + alpha) - 1, dim=1))
-
-    MI_loss = (torch.mean(kl_divergence) - i_c)
-
-    return MI_loss
-
-
-def optimize_beta(beta, MI_loss, alpha2=1e-6):
-    beta_new = max(0, beta + (alpha2 * MI_loss))
-
-    return beta_new
-
-
 def KNNPredict(X_train, y_train, X_test, k=5):
     sim = -1 * euclidean_distances(X_test.cpu().data.numpy(), X_train.cpu().data.numpy())
     idx_mat = np.argsort(-1 * sim, axis=1)[:, 0: k]
