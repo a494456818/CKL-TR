@@ -80,13 +80,10 @@ discriminator = model.Discriminator(opt)
 print(netG)
 print(discriminator)
 
-cls_criterion = nn.NLLLoss()
-
 input_res = torch.FloatTensor(opt.batch_size, opt.resSize)
 input_att = torch.FloatTensor(opt.batch_size, opt.attSize)
 noise = torch.FloatTensor(opt.batch_size, opt.nz)
 input_label = torch.LongTensor(opt.batch_size)
-beta = 0
 
 
 if opt.cuda:
@@ -94,7 +91,6 @@ if opt.cuda:
     netG.cuda()
     input_res = input_res.cuda()
     noise, input_att = noise.cuda(), input_att.cuda()
-    cls_criterion.cuda()
     input_label = input_label.cuda()
 
 
@@ -247,10 +243,9 @@ for start_step in range(0, opt.nepoch):
             param_group['lr'] = param_group['lr'] * opt.lr_dec_rate
 
     print(
-        '[%d/%d] Loss_D: %.4f Loss_G: %.4f, Wasserstein_dist: %.4f, c_errG_fake:%.4f,beta:%.4f,center_loss:%.4f'
+        '[%d/%d] Loss_D: %.4f Loss_G: %.4f, Wasserstein_dist: %.4f, c_errG_fake:%.4f,center_loss:%.4f'
         % (
-            start_step, opt.nepoch, D_cost.item(), G_cost.item(), Wasserstein_D.item(), c_errG_fake.item(), beta,
-            center_loss))
+            start_step, opt.nepoch, D_cost.item(), G_cost.item(), Wasserstein_D.item(), c_errG_fake.item(),center_loss))
 
     # evaluate the model
     if start_step != 0 and start_step % 50 == 0:  ## training a knn classifier takes too much time
