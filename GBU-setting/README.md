@@ -26,17 +26,31 @@ CKL-TR/GBU-setting
 
 ## Reproduce results
 
-AWA2：
+AwA2：
 
 ```python
-# run AWA2
+# run AwA2
 python CKL-TR.py --dataset AWA2 --preprocessing --batch_size 512 --attSize 85
 ```
 
-AWA1：
+AwA1：
 
 ```python
-# run AWA1
+# run AwA1
 python CKL-TR.py --dataset AWA1 --preprocessing --nepoch 2000 --batch_size 512 --attSize 85
+```
+
+CUB：
+
+```python
+# run CUB
+python CKL-TR.py --dataset CUB --preprocessing --batch_size 512 --attSize 312
+```
+
+aPY：
+
+```python
+# run aPY
+python CKL-TR.py --dataset APY --preprocessing --batch_size 512 --attSize 64 --nepoch 5000
 ```
 

@@ -43,7 +43,7 @@ parser.add_argument('--gpu', default='0', type=str, help='index of GPU to use')
 parser.add_argument('--manualSeed', type=int, default=3483, help='manual seed')
 parser.add_argument('--nclass_all', type=int, default=200, help='number of all classes')
 parser.add_argument('--nclass_seen', type=int, default=150, help='number of seen classes')
-parser.add_argument('--lr_dec_ep', type=int, default=100, help='lr decay for every n epoch')
+parser.add_argument('--lr_dec_ep', type=int, default=12, help='lr decay for every n epoch')
 parser.add_argument('--lr_dec_rate', type=float, default=0.95, help='lr decay rate')
 parser.add_argument('--final_classifier', default='softmax',
                     help='the classifier for final classification. softmax or knn')
@@ -55,6 +55,11 @@ parser.add_argument('--family_weight',  type=float, default=0.01, help='the weig
 
 opt = parser.parse_args()
 print(opt)
+if opt.dataset == "CUB":
+    opt.species_weight = 2
+    opt.genus_weight = 1
+    opt.family_weight = 1
+    opt.lr_dec_ep = 6
 
 os.environ['CUDA_VISIBLE_DEVICES'] = opt.gpu
 
