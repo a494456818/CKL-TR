@@ -45,8 +45,6 @@ parser.add_argument('--nclass_all', type=int, default=200, help='number of all c
 parser.add_argument('--nclass_seen', type=int, default=150, help='number of seen classes')
 parser.add_argument('--lr_dec_ep', type=int, default=100, help='lr decay for every n epoch')
 parser.add_argument('--lr_dec_rate', type=float, default=0.95, help='lr decay rate')
-parser.add_argument('--final_classifier', default='softmax',
-                    help='the classifier for final classification. softmax or knn')
 parser.add_argument('--k', type=int, default=1, help='k for knn')
 parser.add_argument('--species_weight',  type=float, default=0.1, help='the weight for the genus center loss')
 parser.add_argument('--genus_weight',  type=float, default=0.01, help='the weight for the genus center loss')
@@ -315,16 +313,16 @@ for start_step in range(0, opt.nepoch):
         train_X = torch.cat((data.train_feature, syn_feature), 0)
         train_Y = torch.cat((data.train_label, syn_label), 0)
 
-        train_z = train_X.cuda()
-        test_z_seen = data.test_seen_feature.cuda()
-        pred_Y_s = torch.from_numpy(KNNPredict(train_z, train_Y, test_z_seen, k=opt.k))
-        test_z_unseen = data.test_unseen_feature.cuda()
-        pred_Y_u = torch.from_numpy(KNNPredict(train_z, train_Y, test_z_unseen, k=opt.k))
+        train_X = train_X.cuda()
+        test_seen = data.test_seen_feature.cuda()
+        pred_Y_s = torch.from_numpy(KNNPredict(train_X, train_Y, test_seen, k=opt.k))
+        test_unseen = data.test_unseen_feature.cuda()
+        pred_Y_u = torch.from_numpy(KNNPredict(train_X, train_Y, test_unseen, k=opt.k))
         acc_seen = compute_per_class_acc_gzsl(pred_Y_s, data.test_seen_label, data.seenclasses)
         acc_unseen = compute_per_class_acc_gzsl(pred_Y_u, data.test_unseen_label, data.unseenclasses)
         H = 2 * acc_seen * acc_unseen / (acc_seen + acc_unseen)
         # T1
-        pred_Y_u_T1 = torch.from_numpy(KNNPredict(syn_feature, syn_label, test_z_unseen, k=opt.k))
+        pred_Y_u_T1 = torch.from_numpy(KNNPredict(syn_feature, syn_label, test_unseen, k=opt.k))
         acc_unseen_T1 = compute_per_class_acc_gzsl(pred_Y_u_T1, data.test_unseen_label, data.unseenclasses)
         print('T1=%.4f, unseen=%.4f, seen=%.4f, h=%.4f' % (acc_unseen_T1, acc_unseen, acc_seen, H))
         if final_result["acc_unseen_T1"] < acc_unseen_T1:
