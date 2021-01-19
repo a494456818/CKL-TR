@@ -21,8 +21,6 @@ CKL-TR/our-Baseline18
     - att_splits.mat
     - res101.mat
   
-  AWA2.csv
-  
 
 ## Reproduce results
 
