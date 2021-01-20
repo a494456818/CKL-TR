@@ -21,8 +21,8 @@ class Generator(nn.Module):
 class Discriminator(nn.Module):
     def __init__(self, opt):
         super(Discriminator, self).__init__()
-        self.discriminator = nn.Linear(opt.latenSize * 2, 1)
-        self.classifier = nn.Linear(opt.latenSize * 2, opt.nclass_seen)
+        self.discriminator = nn.Linear(opt.resSize, 1)
+        self.classifier = nn.Linear(opt.resSize, opt.nclass_seen)
         self.logic = nn.LogSoftmax(dim=1)
         self.apply(weights_init)
 

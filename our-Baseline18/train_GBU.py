@@ -35,7 +35,6 @@ parser.add_argument('--resSize', type=int, default=2048, help='size of visual fe
 parser.add_argument('--attSize', type=int, default=312, help='size of semantic features')
 parser.add_argument('--nz', type=int, default=312, help='size of the latent z vector')
 parser.add_argument('--ngh', type=int, default=4096, help='size of the hidden units in generator')
-parser.add_argument('--latenSize', type=int, default=1024, help='size of semantic features')
 parser.add_argument('--nepoch', type=int, default=1000, help='number of epochs to train for')
 parser.add_argument('--lambda1', type=float, default=10, help='gradient penalty regularizer, following WGAN-GP')
 parser.add_argument('--cls_weight', type=float, default=0.2, help='weight of the classification loss')
